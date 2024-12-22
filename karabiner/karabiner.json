@@ -1,0 +1,172 @@
+{
+	"global": { "show_in_menu_bar": false },
+	"profiles": [
+		{
+			"complex_modifications": {
+				"rules": [
+					{
+						"description": "Change Fn (or left_control) + h/j/k/l to Arrows for MX Keys Mini",
+						"enabled": false,
+						"manipulators": [
+							{
+								"from": {
+									"key_code": "h",
+									"modifiers": {
+										"mandatory": ["left_control"],
+										"optional": ["caps_lock"]
+									}
+								},
+								"to": [{ "key_code": "left_arrow" }],
+								"type": "basic"
+							},
+							{
+								"from": {
+									"key_code": "j",
+									"modifiers": {
+										"mandatory": ["left_control"],
+										"optional": ["caps_lock"]
+									}
+								},
+								"to": [{ "key_code": "down_arrow" }],
+								"type": "basic"
+							},
+							{
+								"from": {
+									"key_code": "k",
+									"modifiers": {
+										"mandatory": ["left_control"],
+										"optional": ["caps_lock"]
+									}
+								},
+								"to": [{ "key_code": "up_arrow" }],
+								"type": "basic"
+							},
+							{
+								"from": {
+									"key_code": "l",
+									"modifiers": {
+										"mandatory": ["left_control"],
+										"optional": ["caps_lock"]
+									}
+								},
+								"to": [{ "key_code": "right_arrow" }],
+								"type": "basic"
+							}
+						]
+					},
+					{
+						"description": "Change Fn + h/j/k/l to Arrows",
+						"manipulators": [
+							{
+								"from": {
+									"key_code": "h",
+									"modifiers": {
+										"mandatory": ["fn"],
+										"optional": ["caps_lock"]
+									}
+								},
+								"to": [{ "key_code": "left_arrow" }],
+								"type": "basic"
+							},
+							{
+								"from": {
+									"key_code": "j",
+									"modifiers": {
+										"mandatory": ["fn"],
+										"optional": ["caps_lock"]
+									}
+								},
+								"to": [{ "key_code": "down_arrow" }],
+								"type": "basic"
+							},
+							{
+								"from": {
+									"key_code": "k",
+									"modifiers": {
+										"mandatory": ["fn"],
+										"optional": ["caps_lock"]
+									}
+								},
+								"to": [{ "key_code": "up_arrow" }],
+								"type": "basic"
+							},
+							{
+								"from": {
+									"key_code": "l",
+									"modifiers": {
+										"mandatory": ["fn"],
+										"optional": ["caps_lock"]
+									}
+								},
+								"to": [{ "key_code": "right_arrow" }],
+								"type": "basic"
+							}
+						]
+					}
+				]
+			},
+			"devices": [
+				{
+					"identifiers": { "is_keyboard": true },
+					"simple_modifications": [
+						{
+							"from": { "key_code": "caps_lock" },
+							"to": [{ "key_code": "left_control" }]
+						}
+					]
+				},
+				{
+					"identifiers": {
+						"is_keyboard": true,
+						"product_id": 45929,
+						"vendor_id": 1133
+					},
+					"simple_modifications": [
+						{
+							"from": { "key_code": "caps_lock" },
+							"to": [{ "key_code": "left_control" }]
+						}
+					]
+				},
+				{
+					"identifiers": {
+						"is_pointing_device": true,
+						"product_id": 45108,
+						"vendor_id": 1133
+					},
+					"mouse_flip_x": true
+				},
+				{
+					"identifiers": {
+						"is_keyboard": true,
+						"product_id": 16387,
+						"vendor_id": 12625
+					},
+					"simple_modifications": [
+						{
+							"from": { "key_code": "delete_forward" },
+							"to": [{ "key_code": "grave_accent_and_tilde" }]
+						},
+						{
+							"from": { "key_code": "left_command" },
+							"to": [{ "key_code": "left_option" }]
+						},
+						{
+							"from": { "key_code": "left_option" },
+							"to": [{ "key_code": "left_command" }]
+						}
+					]
+				}
+			],
+			"name": "Wiscaksono",
+			"selected": true,
+			"simple_modifications": [
+				{
+					"from": { "key_code": "caps_lock" },
+					"to": [{ "key_code": "left_control" }]
+				}
+			],
+			"virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
+		}
+	]
+}

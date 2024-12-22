@@ -1,0 +1,37 @@
+git:
+  paging:
+    colorArg: always
+    pager: diff-so-fancy
+
+gui:
+  # theme:
+  #   selectedLineBgColor:
+  #     - reverse
+  spinner:
+    # The frames of the spinner animation.
+    frames:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
