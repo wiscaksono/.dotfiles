@@ -1,0 +1,14 @@
+[tools]
+erlang = "latest"
+go = "latest"
+java = "21"
+node = "lts"
+"npm:prettier" = "latest"
+ruby = "latest"
+rust = "latest"
+elixir = "latest"
+zig = "latest"
+python = "3.11"
+
+[settings]
+idiomatic_version_file_enable_tools = ["ruby"]
