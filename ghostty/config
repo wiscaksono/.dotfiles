@@ -1,19 +1,18 @@
-theme = catppuccin-mocha
-font-family = Fira Code Nerd Font
+theme = carbonfox
+font-family = Maple Mono
 font-size = 16
+font-thicken = true
 
-window-padding-x = 10
-window-padding-y = 10
-window-decoration = false
-macos-titlebar-style = hidden
-macos-icon = custom-style
-macos-icon-frame = aluminum
-macos-icon-ghost-color = grey
-macos-icon-screen-color = dark grey,black
-macos-option-as-alt = true
-macos-window-shadow = true
+term = xterm-256color
 
-clipboard-read = allow
-clipboard-write = allow
+window-padding-x = 14
+window-padding-y = 14
+window-padding-balance = true
+bold-is-bright = true
+background-opacity = 0.95
+background-blur-radius = 10
 
-shell-integration = zsh
+adjust-cell-height= 7%
+
+copy-on-select = true
+confirm-close-surface = false
