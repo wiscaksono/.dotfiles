@@ -4,3 +4,6 @@
 [submodule "btop"]
 	path = btop
 	url = https://github.com/catppuccin/btop
+[submodule "rex"]
+	path = rex
+	url = https://github.com/wiscaksono/rex-config
